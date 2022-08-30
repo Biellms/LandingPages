@@ -137,6 +137,7 @@ body {
     justify-content: center;
     border-top: 0.1px solid rgb(99, 107, 163);
     padding-top: 32px;
+    padding-bottom: 41px;
     gap: 15px;
 }
 
@@ -148,7 +149,6 @@ body {
 }
 
 .footer-text:hover {
-    font-size: 19px;
     color: rgb(255, 255, 255);
     transition: 0.3s;
 }
