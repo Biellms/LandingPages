@@ -32,6 +32,12 @@ body {
 
 .header-logo-image {
     height: 140px;
+    transition: 0.3s;
+}
+
+.header-logo-image:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 .header-menu {
@@ -85,8 +91,8 @@ body {
 
 .main-principal-text-botao {
     background-color: rgb(99, 107, 163);
-    width: 180px;
-    height: 60px;
+    width: 175px;
+    height: 58px;
     border: none;
     border-radius: 20px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -94,10 +100,12 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: rgb(217, 218, 232);
+    transition: 0.3s;
 }
 
 .main-principal-text-botao:hover {
     background-color: rgba(68, 74, 122, 0.53);
+    transform: scale(1.09);
     transition: 0.3s;
 }
 
@@ -130,6 +138,7 @@ body {
     color: rgb(188, 190, 212);
 }
 
+/* FOOTER */
 .footer {
     display: flex;
     flex-direction: column;
@@ -146,10 +155,12 @@ body {
     font-weight: 800;
     font-size: 18px;
     color: rgb(188, 190, 212);
+    transition: 0.3s;
 }
 
 .footer-text:hover {
     color: rgb(255, 255, 255);
+    transform: scale(1.2);
     transition: 0.3s;
 }
 
@@ -157,4 +168,10 @@ body {
     height: 25px;
     display: block;
     margin: 0 auto;
+    transition: 0.3s;
+}
+
+.footer-image:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
