@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+    
+    .header {
+        gap: 25px
+    }
+
+    .header-menu-item {
+        text-align: center;
+    }
+
+    .main-principal {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .main-principal-text{
+        align-items: center;
+    }
+
+    .main-secundario {
+        padding: 30px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .main-principal-image {
+        height: 350px;
+    }
+
+    .header-menu {
+        gap: 15px;
+    }
+
+    .header-menu-item {
+        text-align: center;
+    }
+}
